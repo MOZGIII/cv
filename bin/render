@@ -1,0 +1,7 @@
+#!/bin/bash
+set -euo pipefail
+
+RESUME="${1?Pass resume variant as the first argument}"
+shift
+
+uv run rendercv render "src/$RESUME.yaml" "$@"
