@@ -1,0 +1,134 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Mikhail Novichkin
+  location: Batumi, Adgaja, Georgia
+  email: mozgiii@gmail.com
+  website: https://www.upwork.com/freelancers/mzg0
+  social_networks:
+    - network: GitHub
+      username: MOZGIII
+  sections:
+
+    experience:
+      - company: Waymark
+        position: Lead Software Engineer
+        location: Remote
+        start_date: 2026-02
+        end_date: present
+        summary: |
+          Development of waymark - open-source distributed & durable background events system
+
+      - company: Claro LT
+        position: Lead Software Engineer / Architect
+        location: Remote
+        start_date: 2023-11
+        end_date: present
+        summary: |
+          Development of a high-performance system in Rust
+
+      - company: Humanode
+        position: Co-Founder & Lead Software Engineer / Architect
+        location: Remote
+        start_date: 2021-03
+        end_date: present
+        summary: |
+          Dvelopment and technical direction of Humanode network
+
+      - company: Timber.io
+        position: Software Engineer
+        location: Remote
+        start_date: 2019-12
+        end_date: 2021-02
+        summary: |
+          Development of Vector - an open-source observability tool
+
+      - company: Blackbell
+        position: Lead Software Engineer
+        location: Remote
+        end_date: 2020-03
+        start_date: 2019-11
+        summary: |
+          Development of Blackbell platform features
+
+      - company: Wunderkind LLC
+        position: Lead Software Engineer / Architect
+        location: Remote
+        end_date: 2021-02
+        start_date: 2017-09
+        summary: |
+          Development of various projects
+
+      - company: Progress Soft
+        position: Lead Software Engineer / Architect
+        location: Moscow, Russia
+        end_date: 2017-06
+        start_date: 2015-09
+        summary: |
+          Development of a petabyte-scale database and
+          manemgement system for real property
+
+    projects:
+      - name: '[Humanode Network](https://humanode.io)'
+        start_date: 2021-03
+        end_date: present
+        summary: |
+          One-human one-node blockchain system
+
+      - name: '[sap](https://github.com/MOZGIII/sap)'
+        start_date: 2024-05
+        end_date: present
+        summary: |
+          An opinioneted open-source HTTP server for hosting static files of Single Page Apps for high load
+
+      - name: '[xwt](https://github.com/MOZGIII/xwt)'
+        start_date: 2023-07
+        end_date: present
+        summary: |
+          An Rust open-source library providing a common WebTransport interface for browser and native.
+
+      - name: '[rebootinto](https://github.com/MOZGIII/rebootinto)'
+        start_date: 2019-04
+        end_date: present
+        summary: |
+          An open-source toolset for rebooting into particular OS in a multiboot EFI environment.
+
+      - name: '[ue5-gitignore](https://github.com/MOZGIII/ue5-gitignore)'
+        start_date: 2015-09
+        end_date: present
+        summary: |
+          An essential setup for managing Unreal Engine 5 (and 4) projects with git-lfs.
+
+      - name: '[gatewayd](https://github.com/MOZGIII/gatewayd)'
+        start_date: 2015-02
+        end_date: 2015-07
+        summary: |
+          An open-source extension for [`vagrant`] to enable mounting host path inside a VM.
+
+      - name: '[vagrant-host-path](https://github.com/MOZGIII/vagrant-host-path)'
+        start_date: 2013-02
+        end_date: 2025-05
+        summary: |
+          An open-source extension for [`vagrant`] to enable mounting host path inside a VM.
+
+    education:
+
+      - institution: Moscow State Industrial University
+        area: Computer Science
+        start_date: 2010-09
+        end_date: 2015-07
+        location: Moscow, Russia
+
+      - institution: "School 1205"
+        area: School
+        start_date: 1998-09
+        end_date: 2010-06
+        location: Moscow, Russia
+
+settings:
+  current_date: '2026-03-02'
+  render_command:
+    typst_path: ../out/main/Mikhail_Novichkin_CV.typ
+    pdf_path: ../out/main/Mikhail_Novichkin_CV.pdf
+    markdown_path: ../out/main/Mikhail_Novichkin_CV.md
+    html_path: ../out/main/Mikhail_Novichkin_CV.html
+    png_path: ../out/main/Mikhail_Novichkin_CV.png
